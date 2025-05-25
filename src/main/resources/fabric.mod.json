@@ -29,5 +29,7 @@
 		"java": ">=21",
 		"fabric-api": "*",
 		"mario_qua_mario": "*"
-	}
+	},
+
+	"accessWidener" : "mqm_replaymod.accesswidener"
 }

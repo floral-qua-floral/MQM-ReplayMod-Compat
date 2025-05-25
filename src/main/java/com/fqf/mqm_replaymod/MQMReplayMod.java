@@ -1,6 +1,6 @@
 package com.fqf.mqm_replaymod;
 
-import com.fqf.mario_qua_mario.packets.MarioPackets;
+import com.fqf.mario_qua_mario.packets.MarioClientPacketHelper;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.ModInitializer;
 
