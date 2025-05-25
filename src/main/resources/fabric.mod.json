@@ -3,17 +3,18 @@
 	"id": "mqm-replaymod",
 	"version": "${version}",
 	"name": "MQM ReplayMod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Improves compatibility between Mario qua Mario and ReplayMod, by allowing the recording player's action transitions to be recorded.",
 	"authors": [
-		"Me!"
+		"Floral qua Floral"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/mod/mario-qua-mario",
+		"sources": "https://github.com/floral-qua-floral/MQM-ReplayMod-Compat",
+		"issues": "https://github.com/floral-qua-floral/MQM-ReplayMod-Compat/issues"
 	},
-	"license": "CC0-1.0",
+	"license": "GPL-3.0-only",
 	"icon": "assets/mqm-replaymod/icon.png",
-	"environment": "*",
+	"environment": "client",
 	"entrypoints": {
 		"client": [
 			"com.fqf.mqm_replaymod.MQMReplayMod"
@@ -26,9 +27,7 @@
 		"fabricloader": ">=0.16.14",
 		"minecraft": "~1.21.1",
 		"java": ">=21",
-		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
+		"fabric-api": "*",
+		"mario_qua_mario": "*"
 	}
 }

@@ -1,5 +1,6 @@
 package com.fqf.mqm_replaymod;
 
+import com.fqf.mario_qua_mario.packets.MarioPackets;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.ModInitializer;
 
@@ -15,10 +16,12 @@ public class MQMReplayMod implements ClientModInitializer {
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	@Override
-	public void onInitialize() {
+	public void onInitializeClient() {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
+
+
 
 		LOGGER.info("Hello Fabric world!");
 	}
